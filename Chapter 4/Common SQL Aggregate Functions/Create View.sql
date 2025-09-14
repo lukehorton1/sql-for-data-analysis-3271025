@@ -6,4 +6,5 @@ SELECT State,
   SUM(TotalDue) as Total_Sales
 FROM Customer C
   JOIN Orders O ON O.CustomerID = C.CustomerID
-GROUP BY State
+GROUP BY State;
+-- removed ORDER BY in order to create view

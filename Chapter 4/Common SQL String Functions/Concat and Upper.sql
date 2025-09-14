@@ -1,5 +1,5 @@
-SELECT UPPER(
-    CONCAT(
+SELECT UPPER( -- to uppercase
+    CONCAT( -- concatenates any number of strings, separated by strings in quotation marks. 
       Address,
       ' ',
       City,

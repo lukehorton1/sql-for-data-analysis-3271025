@@ -16,3 +16,4 @@ VALUES (
     '0.00',
     'ACTIVE'
   );
+-- this inserts a new row into our database, where values are entered into the above columns(Fields)

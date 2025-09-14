@@ -19,4 +19,9 @@ VALUES (
     'Little Rock',
     'AR',
     '72209'
-  )
+  );
+
+/* Syntax for INSERT:
+INSERT INTO tablename(column1, column2, ...)
+VALUES (value1, value2, ...);
+*/
